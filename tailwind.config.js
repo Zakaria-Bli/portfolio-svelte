@@ -2,7 +2,22 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		container: {
+			center: true,
+			padding: '2rem',
+			screens: {
+				'2xl': '1400px'
+			}
+		},
+		fontFamily: {
+			montserrat: ['Montserrat', 'sans-serif'],
+			tienne: ['Tienne', 'serif']
+		}
 	},
-	plugins: []
+	extend: {
+		screens: {
+			xs: '350px'
+		}
+	},
+	plugins: [require('tailwindcss-animate')]
 };
