@@ -6,7 +6,7 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended',
 		'plugin:svelte/recommended',
 		'prettier',
-		'standard',
+		// 'standard',
 		'plugin:tailwindcss/recommended'
 	],
 	parser: '@typescript-eslint/parser',
