@@ -13,3 +13,18 @@ export const navLinks = [
 		title: 'Contact Me'
 	}
 ];
+
+export const skills = [
+	'HTML',
+	'CSS',
+	'Tailwind',
+	'JavaScript',
+	'TypeScript',
+	'React JS',
+	'Next JS',
+	'Svelte',
+	'Sveltekit',
+	'Node JS',
+	'Express',
+	'API'
+];
